@@ -1,1 +1,1 @@
-print("Hey Machan, Naan than Rheghar Targarion!")
+print("Hey Machan, Naan than John Targarion!")
