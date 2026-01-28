@@ -1,0 +1,18 @@
+name: Print
+on: push
+
+jobs:
+  Print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13' 
+          
+      - name: Run Py Script
+        run: python app.py
